@@ -16,7 +16,7 @@ public class EmployeeDao {
 EmployeeRepository er;
 public String postThis(Employee e) {
 	er.save(e);
-	return "posted successfully";
+	return "saved successfully";
 }
 public List<Employee> getThis() {
 	
